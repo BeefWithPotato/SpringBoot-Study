@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class HelloController {
-    @GetMapping("/hello")
+    @GetMapping("/helloworld")
     public String Hello() {
         return "Hello, Spring Boot 3!";
     }
